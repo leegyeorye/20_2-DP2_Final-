@@ -1,0 +1,475 @@
+.background{background-color: black;}
+.font{font-family: 'Noto Serif KR', serif;color: black;}
+.title{margin-top: 30px;margin-left: 30px;}
+.date1{position: absolute;z-index: 100;left: -30px;bottom: 250px;
+    font-size: 2.3em;transform: rotate(-90deg);}  
+.date2{position: absolute;z-index: 100;left: 50px;top: 300px;
+    font-size: 2.3em;transform: rotate(-90deg);}
+.body1{position: absolute;z-index: 100;left: 405px;bottom: 400px;
+    font-size: 2em;transform: rotate(-90deg);}
+.body2{position: absolute;z-index: 100;left: 460px;top: 400px;
+    font-size: 1.5em;transform: rotate(-90deg);}
+.body3{position: absolute;z-index: 100;left: 625px;top: 200px;
+    font-size: 1.5em;transform: rotate(-90deg);}
+.body4{position: absolute;z-index: 100;left: 810px;top: 350px;
+        font-size: 1.2em;transform: rotate(-90deg);}
+
+.box1{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide1;
+    animation-duration: 4.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;}
+
+.box1:hover{
+    animation-name: box-slide1hover;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;}
+
+.box2{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide2;
+    animation-duration: 5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;}
+
+.box2:hover{
+    animation-name: box-slide2hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box3{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide3;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.2s;}
+
+.box3:hover{
+    animation-name: box-slide3hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box4{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide4;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;}
+
+.box4:hover{
+    animation-name: box-slide4hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box5{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide5;
+    animation-duration: 5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.4s;}
+
+.box5:hover{
+    animation-name: box-slide5hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box6{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide6;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.3s;}
+
+.box6:hover{
+    animation-name: box-slide6hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box7{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide7;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.6s;}
+
+.box7:hover{
+    animation-name: box-slide7hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box8{width: 70px; height: 80%; background-color: white;
+    border: 1px solid black;position: fixed;
+    animation-name: box-slide8;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards ;
+    animation-timing-function: ease-out;
+    animation-delay: 0.7s;}
+
+.box8:hover{
+    animation-name: box-slide8hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box9{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide9;
+        animation-duration: 5.8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.75s;}
+
+ .box9:hover{
+    animation-name: box-slide9hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box10{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide10;
+        animation-duration: 5.8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box10:hover{
+    animation-name: box-slide10hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+    
+.box11{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide11;
+        animation-duration: 5.7s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.2s;}
+
+.box11:hover{
+    animation-name: box-slide11hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box12{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide12;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box12:hover{
+    animation-name: box-slide12hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}       
+
+.box13{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide13;
+        animation-duration: 4.8s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box13:hover{
+    animation-name: box-slide13hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box14{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide14;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;}
+
+.box14:hover{
+    animation-name: box-slide14hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box15{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide15;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0s;}
+
+.box15:hover{
+    animation-name: box-slide15hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box16{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide16;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.5s;}
+
+.box16:hover{
+    animation-name: box-slide16hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box17{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide17;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box17:hover{
+    animation-name: box-slide17hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box18{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide18;
+        animation-duration: 4.7s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box18:hover{
+    animation-name: box-slide18hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.box19{width: 70px; height: 80%; background-color: white;
+        border: 1px solid black;position: fixed;
+        animation-name: box-slide19;
+        animation-duration: 5.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards ;
+        animation-timing-function: ease-out;
+        animation-delay: 0.3s;}
+
+.box19:hover{
+    animation-name: box-slide19hover;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;}
+
+.line{width: 1470px;color:white;position: absolute;left: -1.5%;top: 48%;
+    transform: rotate(-25deg);z-index: 200;}
+
+
+
+@-webkit-keyframes box-slide1 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(594px);}}
+ 
+@-webkit-keyframes box-slide1hover {
+    0%{transform: translateY(594px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide2 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(610px);}}
+
+@-webkit-keyframes box-slide2hover {
+    0%{transform: translateY(610px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide3 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(575px);}}
+
+@-webkit-keyframes box-slide3hover {
+    0%{transform: translateY(575px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide4 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(565px);}}
+
+@-webkit-keyframes box-slide4hover {
+    0%{transform: translateY(565px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide5 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(630px);}}
+
+@-webkit-keyframes box-slide5hover {
+    0%{transform: translateY(630px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide6 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(660px);}}
+
+@-webkit-keyframes box-slide6hover {
+    0%{transform: translateY(660px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide7 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(585px);}}
+
+@-webkit-keyframes box-slide7hover {
+    0%{transform: translateY(585px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide8 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(584px);}}
+
+@-webkit-keyframes box-slide8hover{
+    0%{transform: translateY(584px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide9 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(590px);}}
+
+@-webkit-keyframes box-slide9hover {
+    0%{transform: translateY(590px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide10 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(595px);}}
+
+@-webkit-keyframes box-slide10hover {
+    0%{transform: translateY(595px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide11 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(540px);}}
+
+@-webkit-keyframes box-slide11hover {
+    0%{transform: translateY(540px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide12 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(567px);}}
+
+@-webkit-keyframes box-slide12hover {
+    0%{transform: translateY(567px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide13 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(583px);}}
+
+@-webkit-keyframes box-slide13hover {
+    0%{transform: translateY(583px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide14 {
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(610px);}}
+
+ @-webkit-keyframes box-slide14hover{
+    0%{transform: translateY(610px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide15{
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(680px);}}
+
+@-webkit-keyframes box-slide15hover {
+    0%{transform: translateY(680px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide16{
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(565px);}}
+
+@-webkit-keyframes box-slide16hover {
+    0%{transform: translateY(565px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide17{
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(555px);}}
+
+@-webkit-keyframes box-slide17hover {
+    0%{transform: translateY(555px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide18{
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(570px);}}
+
+@-webkit-keyframes box-slide18hover {
+    0%{transform: translateY(570px); }  
+    100%{transform: translateY(0px);}}
+
+@-webkit-keyframes box-slide19{
+    0%{transform: translateY(0px); }  
+    100%{transform: translateY(560px);}}
+
+@-webkit-keyframes box-slide19hover {
+    0%{transform: translateY(560px); }  
+    100%{transform: translateY(0px);}}
